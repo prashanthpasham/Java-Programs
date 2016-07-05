@@ -10,8 +10,7 @@ class FileCopy
 		fis.read(b);
 		FileOutputStream fos = new FileOutputStream("lhj.jpg");
 		fos.write(b);
-		/*String s = new String(b);
-		System.out.println(s);*/
+		
 		}
 		catch(Exception e)
 		{
