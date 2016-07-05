@@ -1,5 +1,5 @@
 import java.io.*;
-class Demo 
+class FileCopy
 {
 	public static void main(String[] args) 
 	{
