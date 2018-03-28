@@ -13,7 +13,7 @@ public class SortingMapExample {
 	public static void main(String[] args) {
 		System.out.println("executing..");
 		Map<String, Integer> map = new LinkedHashMap<String,Integer>();
-		String childs="pack#1@crate#48@halfdozen#6@pallete#64@bottle#1";
+		String childs="pack#1@crate#48@halfdozen#6@pallete#64@bottle#1@";
 		String s1[] = childs.split("@");
 		for(String s:s1) {
 			String ss[] = s.split("#");
